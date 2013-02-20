@@ -1,0 +1,2 @@
+content         autocompy        chrome/content/
+overlay chrome://browser/content/browser.xul chrome://autocompy/content/autocompy.xul
