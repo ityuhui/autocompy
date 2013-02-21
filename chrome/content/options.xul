@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+  
+<prefwindow id="stockwatcher2-prefs"
+     title="Account Setting"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+<prefpane id="sw2-stock-pane" label="Account Settings">
+  <preferences>
+    <preference id="pref_username" name="extensions.autocompy.username" type="string"/>
+	<preference id="pref_password" name="extensions.autocompy.password" type="string"/>
+  </preferences>
+  
+  <vbox align="center">
+  <hbox align="center">
+    <label control="symbol" value="Internat ID: "/>
+    <textbox preference="pref_username" id="symbol" />
+  </hbox>
+  <hbox align="center">
+	<label control="symbol" value="Password:   "/>
+    <textbox preference="pref_password" type="password" id="symbol" />
+  </hbox>
+  </vbox>
+</prefpane>
+  
+</prefwindow>

@@ -19,7 +19,8 @@
 				<!-- 指明能使用该扩展的Firefox最高版本。这里是指3.0.x。结合minVersion，即是说本扩展只适用于1.5和3.0.x之间的版本。必填。 --> 
                 <em:maxVersion>30.0.*</em:maxVersion> 
             </Description> 
-        </em:targetApplication> 
+        </em:targetApplication>  
+		<em:optionsURL>chrome://autocompy/content/options.xul</em:optionsURL>
 
         <!-- 扩展的元数据。 --> 
         <!-- 扩展名字。必填。 --> 

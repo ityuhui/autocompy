@@ -2,13 +2,18 @@
 <overlay id="autocompy"    
                  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
 
-<script type="application/x-javascript"
-  src="chrome://autocompy/content/autocompy.js"/>
-  
+<script type="application/x-javascript" src="chrome://autocompy/content/autocompy.js"/>
 <statusbar id="status-bar"> 
-    <statusbarpanel id="my-panel" 
+	<popupset>
+		<menupopup id="commenu" position="after_start">
+			<menuitem label="Account Setting" oncommand="autocompy.accountSetting()" />
+		</menupopup>
+	</popupset>
+	<statusbarpanel id="my-panel" 
 	             label="complete it!" 
+				 context="commenu"
 			   onclick="autocompy.disPlay()"   
 	/> 
-</statusbar> 
+</statusbar>
+ 
 </overlay>

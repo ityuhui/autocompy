@@ -1,2 +1,2 @@
-pref("extensions.autocompy.username", "yuhui@live.cn");
-pref("extensions.autocompy.password", "123456");
+pref("extensions.autocompy.username", "helloworld@cn.ibm.com");
+pref("extensions.autocompy.password", "helloworld");

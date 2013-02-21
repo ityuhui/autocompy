@@ -20,5 +20,9 @@ var autocompy = {
 		elePass[0].value= this.dpassword;
 	},
 
+	accountSetting: function(){
+		var features = "chrome,titlebar,toolbar,centerscreen,modal";
+		window.openDialog("chrome://autocompy/content/options.xul", "Preferences", features);
+	}
 
 }
