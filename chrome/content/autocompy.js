@@ -1,7 +1,7 @@
 var autocompy = {
 	prefs: null,
-	dusername: "abc",
-	dpassword: "abc",
+	dusername: "",
+	dpassword: "",
 	
 	getPreference: function(){
 		this.prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.autocompy.");
