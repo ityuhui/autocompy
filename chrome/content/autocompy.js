@@ -14,10 +14,24 @@ var autocompy = {
 	disPlay: function(){
 		this.getPreference();
 		var doc = window.getBrowser().selectedBrowser.contentDocument;
+		
 		var eleName = doc.getElementsByName('username');
-		eleName[0].value= this.dusername;
+		if(eleName[0]){
+			eleName[0].value= this.dusername;
+		}
+		else{
+			eleName = doc.getElementById('username');
+			eleName.value= this.dusername;			
+		}
+		
 		var elePass = doc.getElementsByName('password');
-		elePass[0].value= this.dpassword;
+		if(elePass[0]){
+			elePass[0].value= this.dpassword;
+		}
+		else{
+			elePass = doc.getElementById('password');
+			elePass.value= this.dpassword;
+		}
 	},
 
 	accountSetting: function(){
