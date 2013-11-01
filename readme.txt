@@ -10,4 +10,4 @@
 
 6.如果遇到多frame的情况，右键鼠标选择show only this frame，然后再点击complete it!
 
-7.欢迎反馈至yuhuixa@cn.ibm.com
+7.欢迎反馈至yuhuixa
