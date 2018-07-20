@@ -9,5 +9,3 @@
 5.鼠标右键complete it!，将弹出账户和密码的设置界面
 
 6.如果遇到多frame的情况，右键鼠标选择show only this frame，然后再点击complete it!
-
-7.欢迎反馈至yuhuixa
